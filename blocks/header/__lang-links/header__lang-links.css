@@ -1,0 +1,20 @@
+.header__lank-links {
+    margin-right: 48px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__lank-links {
+        margin-right: 24px;
+    }
+}
+@media screen and (max-width: 425px){
+    .header__lank-links {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .header__lank-links {
+        margin-right: 16px;
+    }
+}
