@@ -3,24 +3,19 @@
     list-style-type: none;
     margin: 0;
     padding: 48px 0;
-    grid-row: 1;
-
 }
 
 @media screen and (max-width: 768px) {
     .place__website{
         font-size: 12px;
         line-height: 1;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 640px){
     .place__website {
         display: none
     }
 }
-@media screen and (max-width: 320px) {
-    .place__website {
-        display: none
-    }
-}
+
