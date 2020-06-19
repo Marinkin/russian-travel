@@ -1,31 +1,15 @@
 @import url(../cover/__title/cover__title.css);
 @import url(../cover/__subttitle/cover__subtitle.css);
-@import url(../cover/__background/cover__background.css);
 @import url(../cover/__link/cover__link.css);
 
 .cover{
-    max-width: 1280px;
     margin: 0 auto;
     padding: 0 24px;
-
 }
 
 @media screen and (max-width: 1024px){
     .cover{
-        max-height: 640px;
         padding: 0;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .cover {
-        max-height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover{
-        max-height: 200px;
-    }
-
-}

@@ -1,4 +1,6 @@
-@import url(./grid__container/grid__container.css);
+@import url(./__item-img/photo-grid__item-img.css);
+@import url(./__item/photo-grid__item.css);
+@import url(./__container/photo-grid__container.css);
 
 @media screen and (max-width: 768px) {
     .photo-grid{
